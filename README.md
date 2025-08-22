@@ -10,10 +10,10 @@ make-this
 ### Uses                                                                                              
 #Converting DST to RUS
 
-Add your own DST file lists, and update the file name in `DimuAnaExp/Convert/gridsub.sh`:
+- Add your own DST file lists, and update the file name in `DimuAnaExp/Convert/gridsub.sh`:
 
-Line 4: `LIST_VEC=list.txt` # File containing the list of recontructed DST files
-Line 6: `JOB_NAME=pol_kmag_aug16_2025`
+  - **Line 4:** `LIST_VEC=list.txt`  # File containing the list of reconstructed DST files
+  - **Line 6:** `JOB_NAME=pol_kmag_aug16_2025`
 
 For the commissioning data, you can run it locally or on the grid, depending on the processing time.
 
